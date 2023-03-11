@@ -1,0 +1,25 @@
+header {
+    padding: 0px;
+}
+
+.carousel-img-background {
+    object-fit: cover;
+    height: 500px;
+}
+
+.carousel-caption {
+    padding-bottom: 3rem;
+    color: #587390;
+    padding: 20px;
+}
+
+.carousel-caption-a {
+    /* margin-bottom: -50px; */
+}
+
+@media only screen and (min-width: 769px) {
+    .carousel-caption {
+        padding-bottom: 8rem;
+        padding-top: 2rem;
+    }
+}
